@@ -1,0 +1,18 @@
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    margin: 10px
+}
+
+.cover-background {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flex-container {
+    weight: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+}
