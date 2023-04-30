@@ -9,10 +9,10 @@
 
 ## Code and Resources Used
 
-- ** Python Version: ** 3.10
-- ** Packages: ** pandas, numpy, sklearn, matplotlib, seaborn, flask, mpl_toolkits, mplcursors, flask_restx, flask_sqlalchemy, sqlalchemy
-- ** Kaggle Dataset **: [https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data](https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data)
-- ** Scraping Resource: ** https://www.worldometers.info/world-population
+- **Python Version:** 3.10
+- **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, flask, mpl_toolkits, mplcursors, flask_restx, flask_sqlalchemy, sqlalchemy
+- **Kaggle Dataset**: [https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data](https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data)
+- **Scraping Resource:** https://www.worldometers.info/world-population
 
 ## Downloaded Dataset
 
@@ -55,10 +55,10 @@ Created Plots to see better correlations between features and plotted §d graph 
 I tried 4 different models and evaluated them using Scatter Plots. I chose Scatter plots for the reason that it is clear and when you cluster you have no labels to use metrics
 
 I tried this following models:
-- ** KMeans: ** Because of the normal data distribution
-- ** MiniBatchKMeans: ** Thought it would be effective becouse of the mini batches
-- ** SpectralClustering: ** Tried if dimention reduction is effective
-- ** AgglomerativeClustering: ** Looked up other code and saw the algorith so I tried it
+- **KMeans:** Because of the normal data distribution
+- **MiniBatchKMeans:** Thought it would be effective becouse of the mini batches
+- **SpectralClustering:** Tried if dimention reduction is effective
+- **AgglomerativeClustering:** Looked up other code and saw the algorith so I tried it
 
 
 ## Model evaluation
