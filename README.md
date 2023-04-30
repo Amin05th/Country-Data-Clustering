@@ -33,4 +33,42 @@ With this downloaded I got following features:
 
 ## Web Scraping
 
-In order to get the population feature for the clustering algorithms I wrote an app using selenium and python to scrape from Worldometer
+In order to get the population feature for the clustering algorithms I wrote an app using selenium and python to scrape data from Worldometer
+
+## Data Preprocessing
+
+After Downloading and Scraping Data i preprocessed the data so that it was usable for our model. I made the following changes and created the following features:
+
+
+- Removed country names
+- Added population feature
+- Imputed scraped Population data
+- changed Country Names in order for the API to understand
+
+## EDA
+
+Created Plots to see better correlations between features and plotted §d graph to see how much country differentiate from each other.
+![download](https://user-images.githubusercontent.com/86575364/235356223-393f7700-ef27-4c5c-85ef-1deebdbc0418.png)
+
+## Model Building
+
+I tried 4 different models and evaluated them using Scatter Plots. I chose Scatter plots for the reason that it is clear and when you cluster you have no labels to use metrics
+
+I tried this following models:
+- ** KMeans: ** Because of the normal data distribution
+- ** MiniBatchKMeans: ** Thought it would be effective becouse of the mini batches
+- ** SpectralClustering: ** Tried if dimention reduction is effective
+- ** AgglomerativeClustering: ** Looked up other code and saw the algorith so I tried it
+
+
+## Model evaluation
+
+I plotted scatter plots to see how good the cluster clustered the data here are some pictures
+![download](https://user-images.githubusercontent.com/86575364/235357109-769097dd-63ea-4a8f-bbc8-e1691f240cec.png)
+![download](https://user-images.githubusercontent.com/86575364/235357104-90931f34-6d65-4e0f-8339-0c55f269a3a9.png)
+
+## Productionization
+
+In this step, I built a flask API endpoint that was hosted on a local webserer by following along with the TDS tutorial in the reference section above. The API endpoint show all values in JSON format and in single values in JSON format. For user to see the results visualy I created a User Interface using HTML and CSS.
+
+
